@@ -18,22 +18,36 @@
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## 🧰 Tecnologías y herramientas utilizadas
 
-### 🔙 Backend (.NET)
-- **.NET 7 (ASP.NET Core Web API)**
-- **C#**
-- **Entity Framework Core**
-- **Clean Architecture**
-- **MediatR** para el manejo de comandos y queries
-- **CQRS** (Command Query Responsibility Segregation)
-- **XUnit** para testing automatizado
+- **Backend:** ASP.NET Core Web API (.NET 7)
+- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+- **Base de datos:** SQL Server
+- **Autenticación:**
+  - **JWT (JSON Web Token)** para el manejo de sesiones seguras
+  - **ASP.NET Identity** para la gestión de usuarios y contraseñas
+- **Autorización basada en roles:**
+  - `TeamMember`: registrar y consultar solicitudes propias
+  - `Leader`: consultar y aprobar/rechazar solicitudes de otros usuarios
+- **Arquitectura:** Clean Architecture 
+- **Patrones:**
+  - **CQRS (Command Query Responsibility Segregation)**
+  - **MediatR** para comunicación desacoplada entre capas
+- **Pruebas unitarias:** xUnit
+- **Validaciones:** en frontend usando JavaScript 
 
-### 🔜 Frontend (Web)
-- **HTML5**
-- **CSS3**
-- **JavaScript Vanilla**
-- Validaciones de formularios, lógica de filtrado, sesiones
+---
+
+## 🧪 Funcionalidades clave
+
+- Registro de solicitudes de horas extra (con sede, fechas y horas)
+- Filtro por fecha, estado o sede
+- Acceso basado en rol con interfaz específica para cada usuario
+- Modal con resumen detallado de cada solicitud
+- Gestión por parte del líder: aprobar/rechazar con comentarios
+- Inicio de sesión protegido con JWT
+- Almacenamiento seguro de contraseñas con Identity
+- Validación de formularios para evitar datos inconsistentes
 
 ---
 
@@ -89,6 +103,23 @@ OvertimeReport/
 
 - Pruebas de unidad implementadas con **XUnit**
 - Validación de lógica para cálculos de horas extra y flujo de aprobación
+
+---
+
+## 🚀 Estado del proyecto
+
+✅ Funcional y completo 
+📌 Enfocado a aplicaciones empresariales de recursos humanos y gestión de personal.
+
+---
+
+## 📚 Aprendizajes
+
+Este proyecto fue desarrollado como iniciativa personal para profundizar en:
+- Arquitectura limpia en aplicaciones reales
+- Pruebas automatizadas con xUnit
+- Manejo de roles y seguridad en aplicaciones web modernas
+- Integración de frontend con API .NET
 
 ---
 

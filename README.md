@@ -30,7 +30,7 @@
   - `TeamMember`: registrar y consultar solicitudes propias
   - `Leader`: consultar y aprobar/rechazar solicitudes de otros usuarios
 - **Arquitectura:** Clean Architecture 
-- **Patrones:**
+- **Patrones y principios:**
   - **CQRS (Command Query Responsibility Segregation)**
   - **MediatR** para comunicación desacoplada entre capas
   - **Principios SOLID** aplicados a nivel de diseño de clases y responsabilidades

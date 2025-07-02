@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas extras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div id="loading-overlay" class="invisible">
+            <div class="loader"></div>
+        </div>
+        <div class="floating-window-cont invisible floating-success" id="floatingErr">
+            <div class="floating-window">
+                <div class="floating-scroll">
+                    <img onclick="hideFloating()" class="floating-close" src="src/close.png" alt=""></img>
+                    <center><img src="" alt=""></center>
+                    <h3></h3>
+                    <p id="floating-msg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint excepturi sunt
+                        qui
+                        consequatur sed ullam pariatur veritatis cum. Hic iste cumque officia suscipit similique ipsum
+                        reiciendis laborum cupiditate. Amet, odio.</p>
+                </div>
+            </div>
+        </div>
+        <div class="two-section-full-screen-cont">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                type="module"></script>
+
+            <dotlottie-player src="https://lottie.host/aa45a18a-cee7-4fc8-81af-284f96507cfb/cNbinF66Kw.json"
+                background="transparent" speed="0.7" style="width: 50vw; height: 60vh;margin: auto;" loop
+                autoplay></dotlottie-player>
+            <div class="two-section-content">
+                <div class="two-section-content-cont">
+                    <div class="two-section-content-logo">
+                        <div>
+                            <img src="src/SolidLogin.png" alt="logo">
+                        </div>
+                        <h1>Overtime Report</h1>
+                    </div>
+                    <div class="small-card">
+                        <form id="loginForm" class="form-cont">
+                            <div class="fancy-input-cont grid-rowspan-2">
+                                <label for="email">Email</label>
+                                <input id="email" autocomplete="email" name="email" type="email" class="fancy-input"
+                                    placeholder="Email">
+                            </div>
+                            <div class="fancy-input-cont grid-rowspan-2">
+                                <label for="password">Password</label>
+                                <input id="password" name="password" type="password" class="fancy-input"
+                                    placeholder="Password" pattern="^[a-zA-Z0-9]{6,16}$"
+                                    title="Char count out of bounds">
+                            </div>
+                            <input type="submit" class="grid-rowspan-2 yellow-button" value="LOGIN">
+                            </for>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

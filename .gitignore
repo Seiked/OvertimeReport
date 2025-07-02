@@ -1,0 +1,12 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

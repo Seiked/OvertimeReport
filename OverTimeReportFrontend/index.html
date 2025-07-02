@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas extras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div id="loading-overlay" class="invisible">
+            <div class="loader"></div>
+        </div>
+        <div class="floating-window-cont invisible floating-success" id="floatingErr">
+            <div class="floating-window">
+                <div class="floating-scroll">
+                    <img onclick="hideFloating()" class="floating-close" src="src/close.png" alt="">
+                    <center><img alt="img"></center>
+                    <h3></h3>
+                    <p id="floating-msg"></p>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <img class="header-logo" src="src/SolidLogin.png" alt="">
+            <h1 class="">HORAS EXTRAS</h1>
+            <div class="form-cont-icon">
+                <div class="button-with-descr" onclick="window.open('member.html','_self')">
+                    <img src="src/deadline.png" alt="">
+                    <p>Ver mis solic.</p>
+                </div>
+                <div id="reviewButton" class="button-with-descr" onclick="window.open('leader.html','_self')">
+                    <img src="src/time.png" alt="Review icon">
+                    <p>Revisar solic.</p>
+                </div>
+                <div class="button-with-descr" onclick="window.open('login.html','_self')">
+                    <img src="src/logout.png" alt="">
+                    <p>Cerrar sesion</p>
+                </div>
+            </div>
+        </div>
+        <div class="cont">
+            <div class="small-card center-self welcome-card">
+                <img src="src/personIcon.png" alt="personIcon">
+                <h2 class="welcome-title" id="greetingLeadInfo"></h2>
+            </div>
+            <div class="form-cont small-card center-self rounded">
+                <div class="fancy-input-cont">
+                    <h3 class="card-title-nopad">Fecha de novedad</h3>
+                    <input id="fecha-reporte" class="fancy-input-select" type="date" name="fecha-reporte">
+                </div>
+                <div class="fancy-input-cont flex-grow-1">
+                    <h3 class="card-title-nopad">Sede</h3>
+                    <select id="sede-actividad" class="fancy-input-select" name="sede-actividad" title="sedeseselect">
+                        <option value="0">Selecciona una sede</option>
+                        <option value="Medellin">Medellin</option>
+                        <option value="Bogota">Bogotá</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Cartagena">Cartagena</option>
+                    </select>
+                </div>
+                <div class="cont4col1row" id="conttime">
+                    <div class="fancy-input-cont2" id="initialtime">
+                        <div class="fancy-select" id="initialHourFilter">
+                            <div class="fancy-selected fancy-input select" onclick="toggleDropdown(initialHourFilter)">
+                                <input class="dropbtn selected non-selectable-text" placeholder="Selecciona hora de inicio"
+                                    readonly>
+                                <input type="hidden" class="value">
+                                <img class="center-self imgDownArrow" src="src/down-arrow.png" alt="down-arrow">
+                            </div>
+                            <div class="dropdown-content show small-card rounded">
+                                <input type="text" placeholder="Search..." class="opt-search"
+                                    onkeyup="filterFunction(initialHourFilter)">
+                                <div class="options-cont"></div>
+                            </div>
+                        </div>
+                        <div class="fancy-select" id="initialMinuteFilter">
+                            <div class="fancy-selected fancy-input select" onclick="toggleDropdown(initialMinuteFilter)">
+                                <input class="dropbtn selected non-selectable-text" placeholder="Selecciona minuto de inicio"
+                                    readonly>
+                                <input type="hidden" class="value">
+                                <img class="center-self imgDownArrow" src="src/down-arrow.png" alt="down-arrow">
+                            </div>
+                            <div class="dropdown-content show small-card rounded">
+                                <input type="text" placeholder="Search..." class="opt-search"
+                                    onkeyup="filterFunction(initialMinuteFilter)">
+                                <div class="options-cont"></div>
+                            </div>
+                        </div>
+                        <div class="fancy-input-cont invisible" id="hora1">
+                            <h3 class="card-title-nopad">Hora</h3>
+                            <select id="hora-inicial" class="fancy-input-select" name="hora-inicio" title="hora-inicio-select">
+                            </select>
+                        </div>
+                        <div class="fancy-input-cont invisible" id="minutos1">
+                            <h3 class="card-title-nopad">Minutos</h3>
+                            <select id="minutos-inicial" class="fancy-input-select" name="minuto-inicio" title="minuto-inicio-select">
+                            </select>
+                        </div>  
+                    </div>
+                    <div class="fancy-input-cont2" id="endtime">
+                        <div class="fancy-select" id="finalHourFilter">
+                            <div class="fancy-selected fancy-input select" onclick="toggleDropdown(finalHourFilter)">
+                                <input class="dropbtn selected non-selectable-text" placeholder="Selecciona hora de fin"
+                                    readonly>
+                                <input type="hidden" class="value">
+                                <img class="center-self imgDownArrow" src="src/down-arrow.png" alt="down-arrow">
+                            </div>
+                            <div class="dropdown-content show small-card rounded">
+                                <input type="text" placeholder="Search..." class="opt-search"
+                                    onkeyup="filterFunction(finalHourFilter)">
+                                <div class="options-cont"></div>
+                            </div>
+                        </div>
+                        <div class="fancy-select" id="finalMinuteFilter">
+                            <div class="fancy-selected fancy-input select" onclick="toggleDropdown(finalMinuteFilter)">
+                                <input class="dropbtn selected non-selectable-text" placeholder="Selecciona minuto de fin"
+                                    readonly>
+                                <input type="hidden" class="value">
+                                <img class="center-self imgDownArrow" src="src/down-arrow.png" alt="down-arrow">
+                            </div>
+                            <div class="dropdown-content show small-card rounded">
+                                <input type="text" placeholder="Search..." class="opt-search"
+                                    onkeyup="filterFunction(finalMinuteFilter)">
+                                <div class="options-cont"></div>
+                            </div>
+                        </div>
+                        <div class="fancy-input-cont invisible" id="hora2">
+                            <h3 class="card-title-nopad">Hora</h3>
+                            <select id="hora-fin" class="fancy-input-select" name="hora-fin" title="hora-fin-select">
+                            </select>
+                        </div>
+                        <div class="fancy-input-cont invisible" id="minutos1">
+                            <h3 class="card-title-nopad">Minutos</h3>
+                            <select id="minutos-fin" class="fancy-input-select" name="minuto-fin" title="minuto-fin-select">
+                            </select>
+                        </div> 
+                    </div> 
+                </div>
+                
+                <div class="fancy-input-cont">
+                    <h3 class="card-title-nopad">Detalle horas extras</h3>
+                    <select id="detalle-horas-extra" class="fancy-input-select" name="detalle-horas-extra"
+                        onchange="mostrarCampoOtro()" title="detalle-horas-select">
+                        <option value="0">Seleccione un detalle extra</option>
+                    </select>
+                </div>
+
+                <div id="campo-otro" class="fancy-input-cont flex-grow-1 hidden">
+                    <h3 class="card-title-nopad">Detalle</h3>
+                    <input class="fancy-input" type="text" id="otro-detalle" name="otro-detalle">
+                </div>
+                <div id="actividad-programada" class="fancy-input-cont hidden">
+                    <h3 class="card-title-nopad">¿Por qué medio se reportó la actividad programada?</h3>
+                    <select id="medio-reporte" class="fancy-input-select" name="medio-reporte">
+                        <option value="0">Seleccione el medio</option>
+                        <option value="ticket">Por ticket</option>
+                        <option value="email">Por correo</option>
+                    </select>
+                </div>
+                <div id="ticket-asunto-cont" class="fancy-input-cont hidden">
+                    <h3 class="card-title-nopad">Ticket asociado o asunto del correo</h3>
+                    <input class="fancy-input" type="text" id="ticket-asunto" name="ticket-asunto">
+                </div>
+                <div class="observaciones-cont fancy-input-cont grid-rowspan-2">
+                    <h3 class="card-title-nopad">Observaciones</h3>
+                    <textarea class="fancy-input" id="observations" rows="4"></textarea>
+                </div>
+                <input type="submit" class="grid-rowspan-2 yellow-button" value="Guardar" onclick="submitForm()">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

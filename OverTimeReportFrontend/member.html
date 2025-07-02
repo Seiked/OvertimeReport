@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas extras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div id="loading-overlay" class="invisible">
+            <div class="loader"></div>
+        </div>
+        <div class="floating-window-cont invisible floating-success" id="floatingErr">
+            <div class="floating-window">
+                <div class="floating-scroll">
+                    <img onclick="hideFloating()" class="floating-close" src="src/close.png" alt=""></img>
+                    <center><img alt="img"></center>
+                    <h3></h3>
+                    <p id="floating-msg"></p>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <img class="header-logo" src="src/SolidLogin.png" alt="">
+            <h1 class="">HORAS EXTRAS</h1>
+            <div class="form-cont-icon">
+                <div class="button-with-descr" onclick="window.open('index.html','_self')">
+                    <img src="src/editing.png" alt="">
+                    <p>Crear solic.</p>
+                </div>
+                <div id="reviewButton" class="button-with-descr" onclick="window.open('leader.html','_self')">
+                    <img src="src/time.png" alt="Review icon">
+                    <p>Revisar solic.</p>
+                </div>
+                <div class="button-with-descr" onclick="window.open('login.html','_self')">
+                    <img src="src/logout.png" alt="">
+                    <p>Cerrar sesion</p>
+                </div>
+            </div>
+        </div>
+        <div class="cont">
+            <div id="summaryModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <h2>Resumen de la Solicitud</h2>
+                  <div id="summaryContent"></div>
+                </div>
+            </div>
+            <h1 class="green-bkg">Resumen de solicitudes</h1>
+            <div class="form-cont-35-65 margin-bottom2">
+                <div class="small-card center-self welcome-card">
+                    <img src="src/personIcon.png" alt="personIcon">
+                    <h2 class="welcome-title" id="greetingLeadInfo">Hello, </h2>
+                </div>
+                <div class="filters-cont small-card center-self">
+                    <div class="fancy-input-cont">
+                        <h3 class="card-title-nopad">Fecha de solicitud</h3>
+                        <input type="date" id="fechaSolicitud" class="fancy-input">
+                    </div>
+                    <div class="fancy-input-cont">
+                        <h3 class="card-title-nopad">Estado de la solicitud</h3>
+                        <div id="statusSelect" class="fancy-select">
+                            <div class="fancy-selected fancy-input select" onclick="toggleDropdown(statusSelect)">
+                                <span id="selectedStatus">Seleccionar estado</span>
+                                <img src="src/down-arrow.png" class="center-self imgDownArrow">
+                            </div>
+                            <div class="dropdown-content show small-card">
+                                <div id="statusOptions" class="options-cont">
+                                    <!-- Options will be populated dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filters-cont">
+                        <div id="button-filter" onclick="applyFilters()"
+                            class="button-with-descr align-bottom margin-bottom-m1 visible">
+                            <img src="src/filter.png" alt="">
+                            <p>Filter</p>
+                        </div>
+                        <div id="button-defilter" onclick="removeFilters()"
+                            class="button-with-descr align-bottom margin-bottom-m1 visible">
+                            <img src="src/nofilter.png" alt="">
+                            <p>No filter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="margin-bottom2">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Fecha de solicitud</th>
+                        <th>Detalle</th>
+                        <th>Sede</th>
+                        <th>Hr</th>
+                        <th>Estado aprobación</th>
+                        <th>Fecha de aprobación</th>
+                        <th>Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody id="overtimeTableBody">
+                      <!-- Las filas se insertarán aquí dinámicamente -->
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="member.js"></script>
+</body>
+
+</html>

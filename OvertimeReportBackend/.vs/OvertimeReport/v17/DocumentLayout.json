@@ -1,0 +1,597 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\dbcontext\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\dbcontext\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\overtime\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\overtime\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\overtime\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\overtime\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\overtime\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\overtime\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\coreservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\coreservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|solutionrelative:api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\api\\controller\\overtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6368CD5A-486A-480A-83D7-5F72D5B35FD7}|Api\\Api.csproj|solutionrelative:api\\controller\\overtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\dbcontext\\overtimereportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\dbcontext\\overtimereportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\identity\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\identity\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\login\\validatetoken\\validatetokenrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\login\\validatetoken\\validatetokenrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\login\\validatetoken\\validatetokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\login\\validatetoken\\validatetokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\test\\feature\\login\\validatetokenrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|solutionrelative:test\\feature\\login\\validatetokenrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\overtime\\getreportbyid\\getreportbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\overtime\\getreportbyid\\getreportbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\overtime\\getreportbyid\\getreportbyidrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\overtime\\getreportbyid\\getreportbyidrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\overtime\\getallreportuser\\getallreportuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\overtime\\getallreportuser\\getallreportuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\contracts\\overtime\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\contracts\\overtime\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\contracts\\overtime\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\contracts\\overtime\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\contracts\\overtime\\idetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\contracts\\overtime\\idetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\contracts\\identity\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\contracts\\identity\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\contracts\\identity\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\overtime\\createreport\\createreportrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\overtime\\createreport\\createreportrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\test\\feature\\overtime\\createreportrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|solutionrelative:test\\feature\\overtime\\createreportrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\feature\\overtime\\createreport\\createreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\feature\\overtime\\createreport\\createreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\overtime\\usert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\overtime\\usert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\test\\feature\\login\\loginuserrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|solutionrelative:test\\feature\\login\\loginuserrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\core\\models\\identity\\leadersetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F021E4D-CB26-4568-AD64-1522EF1B7E57}|Core\\Core.csproj|solutionrelative:core\\models\\identity\\leadersetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\test\\feature\\overtime\\getreportbyidrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|solutionrelative:test\\feature\\overtime\\getreportbyidrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|c:\\users\\sebas\\desktop\\overtimereportbackend\\test\\feature\\overtime\\getallreportuserrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAB82C1-53E8-49ED-BD32-58ACA68464BA}|Test\\Test.csproj|solutionrelative:test\\feature\\overtime\\getallreportuserrequesthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\Report.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Overtime\\Report.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\Report.cs",
+              "RelativeToolTip": "Core\\Models\\Overtime\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:44:59.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "Api\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\Controller\\AuthController.cs",
+              "RelativeToolTip": "Api\\Controller\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:57:29.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtSetting.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Identity\\JwtSetting.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Identity\\JwtSetting.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Identity\\JwtSetting.cs",
+              "RelativeToolTip": "Core\\Models\\Identity\\JwtSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:23:29.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Core\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Service\\AuthService.cs",
+              "RelativeToolTip": "Core\\Service\\AuthService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAqwIQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:15:12.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetReportByIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\GetReportById\\GetReportByIdDto.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Overtime\\GetReportById\\GetReportByIdDto.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\GetReportById\\GetReportByIdDto.cs",
+              "RelativeToolTip": "Core\\Feature\\Overtime\\GetReportById\\GetReportByIdDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswBoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:13:04.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\DBContext\\Configuration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Core\\DBContext\\Configuration\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\DBContext\\Configuration\\UserConfiguration.cs",
+              "RelativeToolTip": "Core\\DBContext\\Configuration\\UserConfiguration.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:42:37.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoreServicesRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\CoreServicesRegistration.cs",
+              "RelativeDocumentMoniker": "Core\\CoreServicesRegistration.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\CoreServicesRegistration.cs",
+              "RelativeToolTip": "Core\\CoreServicesRegistration.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:47:29.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-26T15:48:47.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:25:28.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\Details.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Overtime\\Details.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\Details.cs",
+              "RelativeToolTip": "Core\\Models\\Overtime\\Details.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:34:58.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\Status.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Overtime\\Status.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\Status.cs",
+              "RelativeToolTip": "Core\\Models\\Overtime\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:39:08.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Core\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Service\\UserService.cs",
+              "RelativeToolTip": "Core\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:16.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OvertimeController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\Controller\\OvertimeController.cs",
+              "RelativeDocumentMoniker": "Api\\Controller\\OvertimeController.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Api\\Controller\\OvertimeController.cs",
+              "RelativeToolTip": "Api\\Controller\\OvertimeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:21:50.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "Core\\Models\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:34.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Core\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:47.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OvertimeReportContext.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\DBContext\\OvertimeReportContext.cs",
+              "RelativeDocumentMoniker": "Core\\DBContext\\OvertimeReportContext.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\DBContext\\OvertimeReportContext.cs",
+              "RelativeToolTip": "Core\\DBContext\\OvertimeReportContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:19:31.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ValidateTokenRequestHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Login\\ValidateTokenRequestHandlerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Feature\\Login\\ValidateTokenRequestHandlerTest.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Login\\ValidateTokenRequestHandlerTest.cs",
+              "RelativeToolTip": "Test\\Feature\\Login\\ValidateTokenRequestHandlerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T21:19:06.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidateTokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequest.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequest.cs",
+              "RelativeToolTip": "Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T21:19:41.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidateTokenRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequestHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequestHandler.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequestHandler.cs",
+              "RelativeToolTip": "Core\\Feature\\Login\\ValidateToken\\ValidateTokenRequestHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T21:20:39.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Identity\\IUserService.cs",
+              "RelativeDocumentMoniker": "Core\\Contracts\\Identity\\IUserService.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Identity\\IUserService.cs",
+              "RelativeToolTip": "Core\\Contracts\\Identity\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:03.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Identity\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Core\\Contracts\\Identity\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Identity\\IAuthService.cs",
+              "RelativeToolTip": "Core\\Contracts\\Identity\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:01.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetAllReportUserRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\GetAllReportUser\\GetAllReportUserRequestHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Overtime\\GetAllReportUser\\GetAllReportUserRequestHandler.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\GetAllReportUser\\GetAllReportUserRequestHandler.cs",
+              "RelativeToolTip": "Core\\Feature\\Overtime\\GetAllReportUser\\GetAllReportUserRequestHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA2wCkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:36:41.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Overtime\\IReportRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contracts\\Overtime\\IReportRepository.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Overtime\\IReportRepository.cs",
+              "RelativeToolTip": "Core\\Contracts\\Overtime\\IReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:07.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Overtime\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contracts\\Overtime\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Overtime\\IUserRepository.cs",
+              "RelativeToolTip": "Core\\Contracts\\Overtime\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:08.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetReportByIdRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\GetReportById\\GetReportByIdRequestHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Overtime\\GetReportById\\GetReportByIdRequestHandler.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\GetReportById\\GetReportByIdRequestHandler.cs",
+              "RelativeToolTip": "Core\\Feature\\Overtime\\GetReportById\\GetReportByIdRequestHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBBwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:42:22.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Overtime\\IDetailRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Contracts\\Overtime\\IDetailRepository.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Contracts\\Overtime\\IDetailRepository.cs",
+              "RelativeToolTip": "Core\\Contracts\\Overtime\\IDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:06.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\CreateReport\\CreateReportDto.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Overtime\\CreateReport\\CreateReportDto.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\CreateReport\\CreateReportDto.cs",
+              "RelativeToolTip": "Core\\Feature\\Overtime\\CreateReport\\CreateReportDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:45:20.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateReportRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\CreateReport\\CreateReportRequestHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Feature\\Overtime\\CreateReport\\CreateReportRequestHandler.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Feature\\Overtime\\CreateReport\\CreateReportRequestHandler.cs",
+              "RelativeToolTip": "Core\\Feature\\Overtime\\CreateReport\\CreateReportRequestHandler.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:35:05.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateReportRequestHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Overtime\\CreateReportRequestHandlerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Feature\\Overtime\\CreateReportRequestHandlerTest.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Overtime\\CreateReportRequestHandlerTest.cs",
+              "RelativeToolTip": "Test\\Feature\\Overtime\\CreateReportRequestHandlerTest.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:05:27.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserT.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\UserT.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Overtime\\UserT.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Overtime\\UserT.cs",
+              "RelativeToolTip": "Core\\Models\\Overtime\\UserT.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:37:26.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginUserRequestHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Login\\LoginUserRequestHandlerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Feature\\Login\\LoginUserRequestHandlerTest.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Login\\LoginUserRequestHandlerTest.cs",
+              "RelativeToolTip": "Test\\Feature\\Login\\LoginUserRequestHandlerTest.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwEcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:08:35.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Response\\Response.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Response\\Response.cs",
+              "RelativeToolTip": "Core\\Models\\Response\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:24:21.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LeaderSetting.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Identity\\LeaderSetting.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Identity\\LeaderSetting.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Core\\Models\\Identity\\LeaderSetting.cs",
+              "RelativeToolTip": "Core\\Models\\Identity\\LeaderSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:23:32.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetReportByIdRequestHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Overtime\\GetReportByIdRequestHandlerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Feature\\Overtime\\GetReportByIdRequestHandlerTest.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Overtime\\GetReportByIdRequestHandlerTest.cs",
+              "RelativeToolTip": "Test\\Feature\\Overtime\\GetReportByIdRequestHandlerTest.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADkAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:09:53.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetAllReportUserRequestHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Overtime\\GetAllReportUserRequestHandlerTest.cs",
+              "RelativeDocumentMoniker": "Test\\Feature\\Overtime\\GetAllReportUserRequestHandlerTest.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\OvertimeReportBackend\\Test\\Feature\\Overtime\\GetAllReportUserRequestHandlerTest.cs",
+              "RelativeToolTip": "Test\\Feature\\Overtime\\GetAllReportUserRequestHandlerTest.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:07:13.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

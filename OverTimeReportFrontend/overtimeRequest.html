@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas extras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div id="loading-overlay" class="invisible">
+            <div class="loader"></div>
+        </div>
+        <div class="floating-window-cont invisible floating-success" id="floatingErr">
+            <div class="floating-window">
+                <div class="floating-scroll">
+                    <img onclick="hideFloating()" class="floating-close" src="src/close.png" alt="">
+                    <center><img alt="img"></center>
+                    <h3></h3>
+                    <p id="floating-msg"></p>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+          <img class="header-logo" src="src/SolidLogin.png" alt="">
+          <h1 class="">HORAS EXTRAS</h1>
+          <div class="form-cont-icon">
+              <div class="button-with-descr" onclick="window.open('index.html','_self')">
+                <img src="src/editing.png" alt="">
+                <p>Crear solic.</p>
+              </div>
+              <div class="button-with-descr" onclick="window.open('member.html','_self')">
+                  <img src="src/deadline.png" alt="">
+                  <p>Ver mis solic.</p>
+              </div>
+              <div id="reviewButton" class="button-with-descr" onclick="window.open('leader.html','_self')">
+                  <img src="src/time.png" alt="Review icon">
+                  <p>Revisar solic.</p>
+              </div>
+              <div class="button-with-descr" onclick="window.open('login.html','_self')">
+                  <img src="src/logout.png" alt="">
+                  <p>Cerrar sesion</p>
+              </div>
+          </div>
+        </div>
+        <div class="cont">
+            <h1 class="green-bkg" id="solver-request"></h1>
+            <div class="form-cont-status small-card center-self rounded">
+              <div class="center-self welcome-card1">
+                <div class="welcome-row">
+                    <label>NOMBRE DEL SOLID</label>
+                    <h2 id="nombre-solver" class="welcome-title1"></h2>
+                </div>
+                <div class="welcome-row2">
+                    <label>Fecha de generación de la solicitud</label>
+                    <h2 id="fecha-generacion" class="welcome-title2"></h2>
+                </div>
+                <div class="welcome-row">
+                  <label>SEDE</label>
+                  <h2 id="sedesol" class="welcome-title1"></h2>
+                </div>
+              </div>
+              <div class="welcome-card2">
+                <div id="status-section" class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Estado</h3>
+                  <input type="text" id="estado" class="fancy-input-select" disabled>
+                </div>
+                <div id="approval-section" class="observaciones-cont fancy-input-cont grid-rowspan-2" >
+                  <h3 id="comentarios" class="card-title-nopad">Comentarios</h3>
+                  <textarea id="approval-comment" class="fancy-input"></textarea>
+                  <div class="approval-buttons">
+                    <input type="submit" id="approve-btn" class="grid-rowspan-2 green-button" value="Aprobar" onclick="approveRequest(id)">
+                    <input type="submit" id="reject-btn" class="grid-rowspan-2 blue-button" value="Rechazar" onclick="rejectRequest(id)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-cont small-card center-self rounded">
+                <div class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Fecha de Novedad</h3>
+                  <input type="text" id="fecha-novedad" class="fancy-input-select" disabled>
+                </div>
+                <div class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Sede</h3>
+                  <input type="text" id="sede" class="fancy-input-select" disabled>
+                </div>
+                <div class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Hora inicio de jornada</h3>
+                  <input type="text" id="hora-inicio-jornada" class="fancy-input-select" disabled>
+                </div>
+              
+                <div class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Hora fin de jornada</h3>
+                  <input type="text" id="hora-fin-jornada" class="fancy-input-select" disabled>
+                </div>
+
+                <div class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Horas extras</h3>
+                  <input type="text" id="horas-extras" class="fancy-input-select" disabled>
+                </div>
+              
+                <div class="fancy-input-cont">
+                  <h3 class="card-title-nopad">Detalle horas extras</h3>
+                  <input id="detalle-horas-extras" class="fancy-input-select" name="detalle-horas-extras"
+                      onchange="mostrarCampoOtro()" title="detalle-horas-extras-select" disabled>
+                </div>
+
+                <div id="campo-otro" class="fancy-input-cont flex-grow-1 hidden">
+                  <h3 class="card-title-nopad">Detalle</h3>
+                  <input class="fancy-input" type="text" id="otro-detalle" name="otro-detalle" disabled>
+                </div>
+                <div id="actividad-programada" class="fancy-input-cont hidden">
+                  <h3 class="card-title-nopad">¿Por qué medio se reportó la actividad programada?</h3>
+                  <input id="medio-reporte" class="fancy-input-select" name="medio-reporte" disabled>
+                </div>
+                <div id="ticket-asunto-cont" class="fancy-input-cont hidden">
+                  <h3 class="card-title-nopad">Ticket asociado o asunto del correo</h3>
+                  <input class="fancy-input" type="text" id="ticket-correo-asociado" name="ticket-asunto" disabled>
+                </div>
+                <div class="observaciones-cont fancy-input-cont grid-rowspan-2">
+                  <h3 class="card-title-nopad">Observaciones</h3>
+                  <textarea class="fancy-input" id="observaciones" rows="4" disabled></textarea>
+                </div>
+            </div>
+            <div class="form-cont small-card center-self rounded">
+              <div class="fancy-input-cont">
+                <h3 class="card-title-nopad">Información de Activtrak</h3>
+                <h3 class="card-title-nopad">First Activity:</h3> <input class="fancy-input" type="text" id="first-activity" disabled></label>
+                <h3 class="card-title-nopad">Last Activity:</h3> <input class="fancy-input" type="text" id="last-activity" disabled></label>
+              </div>
+            
+              <div class="fancy-input-cont">
+                <h3 class="card-title-nopad">Información Biométricos</h3>
+                <h3 class="card-title-nopad">Entrada:</h3> <input class="fancy-input" type="text" id="entrada-biometrico" disabled></label>
+                <h3 class="card-title-nopad">Salida:</h3> <input class="fancy-input" type="text" id="salida-biometrico" disabled></label>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="overtimeRequest.js"></script>
+</body>
+
+</html>

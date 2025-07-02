@@ -33,6 +33,7 @@
 - **Patrones:**
   - **CQRS (Command Query Responsibility Segregation)**
   - **MediatR** para comunicación desacoplada entre capas
+  - **Principios SOLID** aplicados a nivel de diseño de clases y responsabilidades
 - **Pruebas unitarias:** xUnit
 - **Validaciones:** en frontend usando JavaScript 
 
